@@ -1,0 +1,4 @@
+name: pry
+
+packages:
+- path: lib
