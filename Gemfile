@@ -3,6 +3,8 @@
 source 'https://rubygems.org'
 gemspec
 
+gem 'appmap', github: 'applandinc/appmap-ruby', branch: 'master'
+
 gem 'rake'
 gem 'yard'
 gem 'rspec', '~> 3.8.0'

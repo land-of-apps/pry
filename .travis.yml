@@ -6,6 +6,3 @@ import:
 
 script:
 - APPMAP=true bundle exec rspec
-
-after_script:
-- env DEBUG=true ruby ./upload-appmaps tmp/appmap/rspec
