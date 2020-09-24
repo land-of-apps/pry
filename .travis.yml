@@ -5,4 +5,4 @@ import:
 - land-of-apps/land-of-apps:travis/ruby-imports.yml
 
 script:
-- APPMAP=true bundle exec rspec
+- APPMAP=true bundle exec rspec --order defined --format doc
